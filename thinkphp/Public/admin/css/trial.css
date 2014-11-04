@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*免费试用*/
+.page_head{width:700px; margin:0 auto; border:1px solid #6eb92d; padding:18px 20px; -webkit-border-radius:0px; -moz-border-radius:0px; border-radius:0px; -webkit-box-shadow:#ccc 1px 1px 2px;-moz-box-shadow:#ccc 1px 1px 2px; box-shadow:#ccc 1px 1px 2px; background-color:#fff; line-height:22px;}
+.trial_head .page_head .mytrial{float:left; width:700px; padding-top:20px;}
+.page_head strong{display:inline;}
+.mytrial ul{display:inline;}
+.mytrial li{float:left; width:100px;}
+.page_head em{color:#F60}
+h2{float:left; font-weight:bold; padding-right:10px;}
+.trial_nav{width:740px; margin:0 auto; padding-top:10px;}
+.trial_titline{background:url("../images/line_tab.png") repeat-x scroll 0 0 transparent; position:relative; z-index:98px; margin-top:-10px; height:8px; overflow: hidden;}
+
+.trial_navbox{display:block; height:34px; line-height:34px; margin-top:1px; margin-bottom:10px;}
+.trial_navbox li{float:left; display:block;height:30px; line-height:30px; width:72px; text-align:center; margin-top:4px; width:100px; background:#eaeaea;}
+.trial_navbox li a{color:#3e3e3e;}
+.trial_navbox li.hover{background-position:0 -519px; font-weight:bold; background:#669933;}
+.trial_navbox li.hover a{color:#fff; background:#669933;}
+/*IE 6*/
+.trial_navbox li.hover a{_display:block; _height:25px; _line-height:25px; _padding-top:5px; _color:#fff;}
+
+.trial_thread{width:706px; height:105px; margin:0 auto; margin-top:10px; padding:15px; border:1px solid #e7e7e7; -webkit-border-radius:0px;-moz-border-radius:0px;border-radius: 0px;-webkit-box-shadow:#ccc 1px 1px 2px; -moz-box-shadow:#ccc 1px 1px 2px; box-shadow:#ccc 1px 1px 2px; background:#fff; line-height:22px;}
+.trial_thread h3{font-size:14px; font-weight:bold;}
+.trial_thread em{color:#F60;}
+.trial_thread h4{color:#999;}
+.trial_thread a{color:#669933;}
+
+.portrait{float:left; border:1px #e6e6e6 solid; width:100px; height:100px; padding:1px;}
+.trial_mbox{width:380px; float:left; padding-left:24px;}
+.trial_rbox{width:170px; float:left; line-height:22px; padding:20px 0 0 20px;}
+.trial_rbox i{color:#00a9da;}
+.trial_rbox p em{font-size:20px; color:#ff5b5b;}
+.trybt{display:block; width:131px; height:32px; background-position:0 0; margin-top:5px; overflow:hidden; line-height:80px; border:0px; cursor:hand;}
+.trybt a{display:inline-block; width:131px; height:32px; background-position:0 0; padding-top:32px;}
+.btn_try{ display:block;width:131px; height:32px; overflow:hidden; line-height:80px; border:0px; cursor:pointer;}
+.btn_tryreport{display:block; width:131px; height:32px; background-position:0 -110px !important; overflow:hidden; line-height:80px; border:0px; cursor:pointer;}
+
+/*试用报告*/
+.trialreport_thread{height:90px;}
+
+
+
+
+/*清除浮动*/
+.clearfix:after {visibility:hidden; display:block; font-size:0; content: " "; clear:both; height:0;}
+.clearfix {display:inline-block;}
+html[xmlns] .clearfix {display:block;}
+* html .clearfix {height:1%;}
+
+
+/*Tab Menu*/
+.trybt, .tabs2 a, .btn_try, .btn_tryreport{background:transparent url(../images/trial/trialbg.png) 0 0 no-repeat;}
+.wrap_tabbox{ border-bottom:2px #6eb92b solid; margin:0 15px}
+.tabs2{height:30px; margin-top:15px; overflow: hidden; position:relative;}
+.tabs2 a{background-position:0 -69px; color:#666; display: inline-block; width:106px; height:30px; line-height:34px; margin:0px 2px 0 0; position: relative; text-align: center;}
+.tabs2 a:hover{text-decoration:none; color:#669933;}
+.tabs2 a.current{background-position:0 -37px; color: #fff; font-weight:bold;}
+.tabs2 a.current{color:#fff;}

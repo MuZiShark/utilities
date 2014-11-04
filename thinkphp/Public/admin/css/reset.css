@@ -1,0 +1,121 @@
+@charset "utf-8";
+@import url("common.css");	/*导入公共样式表*/
+
+/**
+ * @filename reset.css
+ * @create 2011-06-25
+ * @author Jacky
+ * @version 1.0 | 2011-06-25
+ */
+
+html
+{
+	color:#000;
+}
+
+/* 隐藏IE下多余的烦人水平滚动条 */
+html
+{
+	/*overflow: auto;*/
+	/*overflow: hidden;*/
+	/*overflow-y: scroll;*/
+	overflow-x: hidden;
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, form, th, td
+{
+	margin:0;
+	padding:0;
+}
+
+body, button, input, select, textarea
+{
+	font:12px/1.5 Tahoma, Arial, "微软雅黑", "\5b8b\4f53", sans-serif;
+}
+
+/* 解决文本输入框，下拉列表框，文本域，图片与同处一行的文本或其他标签不对齐 */
+input, select, textarea, img, span, em, i
+{
+	vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-size:100%;
+	font-weight:normal;
+}
+
+address, cite, dfn, em, var, i
+{
+	font-style:normal;
+}
+
+code, kbd, pre, samp, tt
+{
+	font-family:"Courier New", Courier, monospace;
+}
+
+small
+{
+	font-size:12px;
+}
+
+ul, ol
+{
+	list-style:none;
+}
+
+a
+{
+}
+
+a:hover
+{
+}
+
+abbr[title], acronym[title]
+{
+	border-bottom:1px dotted;
+	cursor:help;
+}
+
+q:before, q:after
+{
+	content:'';
+}
+
+:focus
+{
+	outline:0;
+}
+
+legend
+{
+	color:#000;
+}
+
+fieldset, img
+{
+	border:none;
+}
+
+button, input, select, textarea
+{
+	font-size:100%;
+}
+
+table
+{
+}
+
+hr
+{
+	border:none;
+	height:1px;
+	*color:#fff;
+}
+
+img
+{
+	-ms-interpolation-mode:bicubic;
+}

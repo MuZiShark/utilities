@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/**
+
+ * @filename frame-main.css
+ * @create 2011-07-02
+ * @author Jacky
+ * @version 1.0 | 2011-07-02
+ */
+
+body
+{
+	background: url(../img/main-bg.gif) repeat scroll 0 0 transparent;
+	/*border-left: 1px solid #1A1A1A;*/
+	padding:20px 0;
+}
+
+a {
+	color: #0088CC;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+/* mainzonediv Begin */
+.mainzonediv {
+	margin: 0px auto;
+	width: 94%;
+	/*box-shadow: 0 5px 10px #AFAEAE;*/
+}
+
+.mainzonediv .title {
+	position: relative;
+    height: 35px;
+    line-height: 34px;
+    font-size: 15px;
+    color: #2C2C2C;
+    font-weight: bold;
+    text-shadow: 0 1px #FFFFFF;
+    background: url(../img/main/white-title.png) repeat scroll 0 0 transparent;
+    border: medium none;
+	padding: 0 10px;
+}
+
+.mainzonediv .title .toggle {
+    position: absolute;
+    display: block;
+    height: 18px;
+    right: 10px;
+    top: 8px;
+    width: 18px;
+    background: url(../img/main/slidebutton.gif) no-repeat;
+}
+
+.mainzonediv .content {
+    background-color: #F7F7F7;
+    padding: 10px 10px 20px 10px;
+}
+
+.visited:visited {
+    color:#0000FF;
+    text-decoration:none; 
+}
+
+.pg {
+    float: right;
+    padding-right: 34px;
+}
+
+.fist,.nxt{
+    background: none repeat scroll 0 0 #B9B9B9;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 4px;
+}
+
+
+.pg strong,.headpg strong{
+    color: #0088CC;
+    border: 1px solid #B9B9B9;
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+}
+
+
+.pg a,.headpg a{
+    border: 1px solid #B9B9B9;
+    color: #666666;
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+}
+
+.headpg {
+    float: right;
+    padding-right: 21px;
+    padding-top: 13px;
+}

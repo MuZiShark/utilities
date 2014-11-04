@@ -1,0 +1,130 @@
+@charset "utf-8";
+/**
+ * @filename tablelist.css
+ * @create 2011-06-25
+ * @author Jacky
+ * @version 1.0 | 2011-06-25
+ */
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*备注：让table表格支持 overflow: hidden 属性*/
+/* 
+table
+{
+	table-layout: fixed;
+} */
+
+td
+{
+	/* white-space: nowrap;
+	overflow: hidden; */
+	border:1px solid #BBD7E6;
+}
+tr
+{
+	height:30px;
+}
+/*让table表格支持overflow:hidden属性*/
+
+.tablelist
+{
+	margin: 0px auto;
+	width: 96%;
+	font-size: 12px;
+	color: #666;
+	background: #ddd;
+}
+
+.tablelist tr
+{
+}
+
+.tablelist th
+{
+	height: 24px;
+	line-height: 24px;
+	background: #fff;
+}
+
+.tablelist th span
+{
+	display: block;
+	background: #EEEEEE;
+	margin: 1px 0px 0px 1px;
+}
+
+.tablelist th input
+{
+	height: 24px;
+}
+
+.tablelist td
+{
+	height: 24px;
+	line-height: 24px;
+/*	text-align: center;*/
+	background: #fff;
+}
+
+.tablelist thead
+{
+}
+
+.tablelist tbody
+{
+}
+
+.tablelist tbody tr
+{
+	/*cursor:pointer;*/
+}
+
+.tablelist tbody td
+{
+	height: 26px;
+	line-height: 26px;
+	padding: 0px 6px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.tablelist tbody tr.bg td
+{
+	background-color: #F6F6F6;
+}
+
+/* 表格行，鼠标悬停样式 */
+.tablelist tbody .tr-hover td
+{
+	/*background: #E8E8E8;*/
+	color: #f60;
+	/*color: #333;*/
+	/*font-weight: bold;*/
+}
+
+/* 表格行，被选中样式 */
+.tablelist tbody .tr-selected td
+{
+	background: #E8E8E8;
+}
+
+.tablelist tbody a
+{
+	margin-right: 5px;
+}
+
+.tablelist tbody a img
+{
+	vertical-align: middle;
+}
+
+.tablelist tfoot
+{
+	height: 30px;
+}

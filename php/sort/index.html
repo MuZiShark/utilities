@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>倒计时</title>
+<script type="text/javascript">
+function counter() {
+	var date = new Date();
+	var year = date.getFullYear();
+	var date2 = new Date(year, 12, 31, 23, 59, 59);
+	var time = (date2 - date)/1000;
+	var day =Math.floor(time/(24*60*60))
+	var hour = Math.floor(time%(24*60*60)/(60*60))
+	var minute = Math.floor(time%(24*60*60)%(60*60)/60);
+	var second = Math.floor(time%(24*60*60)%(60*60)%60);
+	
+	var str = year + "年还剩"+day+"天"+hour+"时"+minute+"分"+second+"秒";
+	document.getElementById("input").value = str;
+}
+window.setInterval("counter()", 1000);
+</script>
+</head>
+<body>
+<input type="text" value="" id="input" size="1000"/>
+</body>
+</html>
+
+
+
+<!-- 
+功能：计算当年还剩多少时间的倒数计时程序，要求网页上实时动态显示“××年还剩××天××时××分××秒”
+ -->

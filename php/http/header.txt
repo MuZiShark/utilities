@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Tue, 22 Jul 2014 10:28:09 GMT
+Content-Type: text/html; charset=utf-8
+Connection: Keep-Alive
+Vary: Accept-Encoding
+Set-Cookie: BAIDUID=276126BBE8698C6C5FA336E61C703509:FG=1; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com
+Set-Cookie: BDSVRTM=0; path=/
+P3P: CP=" OTI DSP COR IVA OUR IND COM "
+Cache-Control: private
+Cxy_all: baidu+8f475e393d6f362ee9927bbcb29cbb31
+Expires: Tue, 22 Jul 2014 10:27:22 GMT
+X-Powered-By: HPHP
+Server: BWS/1.1
+BDPAGETYPE: 1
+BDQID: 0xd4d5b19c00023a67
+BDUSERID: 0
+

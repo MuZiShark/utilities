@@ -1,0 +1,114 @@
+@charset "utf-8";
+/**
+ * @filename myform.css
+ * @create 2011-06-25
+ * @author Jacky
+ * @version 1.0 | 2011-06-25
+ */
+
+/* 表单元素基本样式 */
+.myform
+{
+}
+
+/* 文本框基本样式 */
+.myform input, input.myform
+{
+	/*height: 23px;
+	line-height: 23px;*/
+	/*border: 1px solid #DBE6E3;*/
+	width:auto;
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #DDDCDC;
+	background: #fff;
+	padding: 0px 0px 0px 2px;
+	
+	/*box-shadow: 2px 1px 5px #CBC9C9 inset;*/
+}
+
+/* 复选框基本样式 */
+.checkbox input, input.checkbox
+{
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #DDDCDC;
+	background: #fff;
+	padding: 0px 0px 0px 2px;
+	
+	/*box-shadow: 2px 1px 5px #CBC9C9 inset;*/
+}
+
+/* 下拉列表基本样式 */
+.myform select, select.myform
+{
+	height: 22px;
+	padding: 1px 1px 1px 0px;
+}
+
+/* 文本域基本样式 */
+.myform textarea, textarea.myform
+{
+	/*border: 1px solid #DBE6E3;*/
+	
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDCDC;
+    /*box-shadow: 2px 1px 5px #CBC9C9 inset;*/
+	padding:5px;
+	line-height:20px;
+}
+
+/* 鼠标悬停样式 */
+.myform input.hover, textarea.hover
+{
+	border: 1px solid #B8CDC8;
+	background: #f5f9fd;
+}
+
+/* 获得焦点样式 */
+.myform input.focus, textarea.focus
+{
+	/*border: 1px solid #9ecc00;
+	background: #f5f9fd;*/
+	border: 1px solid #59c7ff;
+	background: #f5f9fd;
+	/*background: #fff;*/
+	/*box-shadow: 2px 1px 5px #88bcd7 inset;*/
+}
+
+/* 校验错误样式 */
+.myform input.error, .error input, textarea.error, .error textarea
+{
+	/*border: 1px solid #ff0000;
+	background: #f5f9fd;*/
+	
+	color: #DC3522;
+	background-color: #ECE8E7;
+	border-color: #DC3522;
+    /*box-shadow: 2px 1px 5px #CBC9C9 inset;*/
+}
+
+.myform span.error, .error span
+{
+	color: #F00;
+}
+
+#gotop{
+    display:none;
+    width:48px;
+    height:65px;
+    position:fixed;
+    right:0px;
+    bottom:50px;
+    background:url(../img/arrow-up-blue.png) no-repeat 20px 0px;
+}
+
+#gotop:hover{
+    display:none;
+    width:48px;
+    height:65px;
+    position:fixed;
+    right:0px;
+    bottom:50px;
+    background:url(../img/arrow-up-red.png) no-repeat 20px 0px;
+}

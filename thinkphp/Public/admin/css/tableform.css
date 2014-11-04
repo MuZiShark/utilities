@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* 表单表格样式（默认为双属性） */
+
+.tableform
+{
+	margin: 10px auto;
+}
+
+.tableform th
+{
+	width: 15%;
+	text-align: right;
+	/*font-weight: normal;*/
+	/*color: #333;*/
+	color: #2C2C2C;
+}
+
+.tableform td
+{
+	width: 35%;
+	text-align: left;
+	padding: 6px 0px;
+}
+
+.tableform input
+{
+	width: 96%;
+}
+
+.tableform input.one
+{
+	width: 98%;
+}
+
+.tableform input.radio, input.checkbox
+{
+	width: auto;
+	border: none;
+}
+
+.tableform input.checkbox
+{
+}
+
+.tableform input.file
+{
+	width: 60%;
+	border: none;
+}
+
+.tableform select
+{
+	width: 97%;
+}
+
+.tableform textarea
+{
+	width: 97%;
+	height: 100px;
+}
+
+/* 单一属性表单样式开始 */
+.single-th th
+{
+	width: 15%;
+}
+
+.single-th td
+{
+	width: 85%;
+}
+
+.single-th input
+{
+	width: 60%;
+}
+
+.single-th .checkbox p
+{
+	display:inline-block;
+	width:60%;
+}
+
+.single-th .checkbox span
+{
+	display:inline-block;
+}
+
+.single-th .col-4 span
+{
+	width:23%;
+}
+
+.single-th .col-3 span
+{
+	width:32%;
+}
+
+.single-th .col-2 span
+{
+	width:49%;
+}
+
+.single-th .checkbox input
+{
+	width: auto;
+	border: none;
+	background:none;
+	margin-right:5px;
+}
+
+.single-th select
+{
+	/*width: 60%;*/
+	width: auto;
+}
+
+.single-th textarea
+{
+	width: 59%;
+}
+
+/*.single-th span
+{
+	margin: 3px 0px 0px 10px;
+	width: 38%;
+	color: #bbb;
+}
+
+.single-th td.error span
+{
+	color: #f00;
+}*/
+
+.single-th i
+{
+	width: 38%;
+	font-style: normal;
+	color: #bbb;
+	/*color: #6D6D6D;*/
+	margin: 3px 0px 0px 10px;
+}
+
+.single-th td.error i
+{
+	/*color: #f00;*/
+	color: #DC3522;
+}
+/* 单一属性表单样式结束 */
+
+/* 重置表单页背景色为白色 */
+body {
+	background-color: #fff;
+	*margin-bottom: 10px;
+}
+
+/* 重置“fieldsetdiv”底部边距样式 */
+.fieldsetdiv
+{
+	/*margin-bottom: 20px;*/
+}

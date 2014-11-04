@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=" />
+<title>全选</title>
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.3.2/jquery.min.js"></script>
+</head>
+
+<body>
+<input type="checkbox" name="chk_list" id="chk_list_1" value="1" />1<br />
+<input type="checkbox" name="chk_list" id="chk_list_2" value="2" />2<br />
+<input type="checkbox" name="chk_list" id="chk_list_3" value="3" />3<br />
+<input type="checkbox" name="chk_list" id="chk_list_4" value="4" />4<br />
+<input type="checkbox" name="chk_list" id="chk_list_5" value="5" />5<br />
+<input type="checkbox" name="chk_all" id="chk_all" />全选/取消全选
+<script type="text/javascript">
+$("#chk_all").click(function(){
+     $("input[name='chk_list']").attr("checked",$(this).attr("checked"));
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台系统 - 管理员登录</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/login.css" />
+<script type="text/javascript" src="__PUBLIC__/admin/js/jquery_1.6.1.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/jquery.validate.pack.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/jquery.validate.messages_cn.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/additional-methods.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/login.js"></script>
+</head>
+<body>
+<div class="login">
+	<form id="loginForm" name="loginForm" method="post" action="__MODULE__/Public/login">
+		<div class="box-top"></div>
+		<div class="box-logo"></div>
+		<div class="box-middle">
+			<div class="box-middle-content">
+				<div class="content-left"></div>
+				<div class="content-right">
+					<ul>
+						<label>账号：</label>
+						<input id="username" name="username" type="text" class="input-txt" value="" />
+						<i></i>
+					</ul>
+					<ul>
+						<label>密码：</label>
+						<input id="password" name="password" type="password" class="input-txt" value="" />
+						<i></i>
+					</ul>
+					<ul>
+						<a id="loginButton" href="#" class="login-bt">登录</a>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="box-bottom"></div>
+	</form>
+</div>
+</body>
+</html>

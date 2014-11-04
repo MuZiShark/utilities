@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>frame-left</title>
+	<link href="__PUBLIC__/admin/css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="__PUBLIC__/admin/css/frame-left.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" language="javascript" src="__PUBLIC__/admin/js/jquery_1.6.1.js"></script>
+	<script type="text/javascript" language="javascript" src="__PUBLIC__/admin/js/left-menu.js"></script>
+</head>
+<body>
+<div id="frame-left" name="frame-left" class="sidebar">
+	<ul id="menu">
+		<li class="current-action logo fixed" title="管理系统"></li>
+		<li class="current-action logo" title="管理系统"></li>
+        <foreach name="__MENU__" item="main">
+			<li>
+	            <a href="javascript:void('sm-gis');" class="title">{$main.name}</a>
+	            <ul class="content hide">
+	            	<foreach name="main._child" item="sub">
+	                	<li>
+	                		<a href="__APP__/{$sub.url}" target="mainFrame"><span>{$sub.name}</span></a>
+	                	</li>
+					</foreach>
+	                <li class="hide"><a href="javascript:void('sm-gis');" target="mainFrame"><span>隐藏li，别删</span></a></li>
+	            </ul>
+	        </li>
+		</foreach>
+	</ul>
+</div>
+</body>
+</html>

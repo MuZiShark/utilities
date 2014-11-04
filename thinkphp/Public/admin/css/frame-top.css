@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/**
+
+ * @filename frame-top.css
+ * @create 2011-06-25
+ * @author Jacky
+ * @version 1.0 | 2011-06-25
+ */
+
+html, body
+{
+	overflow:hidden;
+	background: #2B2B2B;
+}
+
+#head, #head a.button, #head .search
+{
+	background: url(../img/spriteh.png);
+}
+
+#head
+{
+	height: 40px;
+	line-height: 40px;
+	color: #AEAEAE;
+	border: 1px solid #000000;
+	
+	/*+text-shadow:0px 1px 0px #000000;*/
+	-moz-text-shadow: 0px 1px 0px #000000;
+	-webkit-text-shadow: 0px 1px 0px #000000;
+	-o-text-shadow: 0px 1px 0px #000000;
+	text-shadow: 0px 1px 0px #000000;
+}
+
+#head .left
+{
+	position: absolute;
+	left: 10px;
+	/*right: 15px;*/
+	top: 0;
+}
+
+#head .right
+{
+	position: absolute;
+	top: 0;
+	right: 15px;
+	display:none;
+}
+
+#head a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#head a:hover
+{
+	text-decoration: underline;
+}
+
+#head a.button
+{
+	float: left;
+	display: block;
+	width: 27px;
+	height: 27px;
+	background: url(../img/icons/top/user_icon.gif) no-repeat center center;
+	margin-top: 6px;
+	margin: 6px 0px 0px 0px;
+}
+
+/** Search Form **/
+#head .search
+{
+	position: relative;
+	width: 217px;
+	height: 26px;
+	margin-top: 6px;
+	background: url(../img/top/head-input-bg.gif) no-repeat center center;
+}
+
+#head .search input.text
+{
+	position: absolute;
+	border: none;
+	background: none;
+	width: 194px;
+	height: 22px;
+	line-height: 27px;
+	padding: 0 5px;
+	color: #AEAEAE;
+	
+	/*+text-shadow:0 1px 0px #000;*/
+	-moz-text-shadow: 0 1px 0px #000;
+	-webkit-text-shadow: 0 1px 0px #000;
+	-o-text-shadow: 0 1px 0px #000;
+	text-shadow: 0 1px 0px #000;
+}
+
+#head .search input.submit
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 25px;
+	height: 25px;
+	text-indent: 3000px;
+	background: url(../img/icons/top/input-search.gif) no-repeat center center;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+}
