@@ -18,9 +18,9 @@ define('APP_PATH', ROOT_PATH.'/'.APP_NAME.'/');
 // 定义Common目录
 define('COMMON_PATH', ROOT_PATH.'/Common/');
 // 定义Public目录
-define('PUBLIC_PATH', ROOT_PATH.'/Public/admin');
+define('PUBLIC_PATH', ROOT_PATH.'/Public/Admin');
 // 定义Runtime目录
-define('RUNTIME_PATH', ROOT_PATH.'/Runtime/admin');
+define('RUNTIME_PATH', ROOT_PATH.'/Runtime/');
 
 // 绑定Main模块到当前入口文件
 define('BIND_MODULE', 'Admin');

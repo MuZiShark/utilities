@@ -1,6 +1,4 @@
 <?php
 return array(
-	'TMPL_PARSE_STRING' => array(
-		'__PUBLIC__' => '/home',
-	),
+	//'配置项'=>'配置值'
 );

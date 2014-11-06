@@ -1,1 +1,0 @@
-<?php if (!defined('THINK_PATH')) exit();?>欢迎使用ThinkPHP！您现在访问的是Admin模块的Index控制器！

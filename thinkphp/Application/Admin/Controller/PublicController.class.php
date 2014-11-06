@@ -2,7 +2,7 @@
 namespace Admin\Controller;
 use User\Api\UserApi;
 class PublicController extends \Think\Controller {
-	
+
 	/* 后台登录 */
 	public function login() {
 		$username = I('post.username');

@@ -32,5 +32,4 @@ function format($startDate, $endDate) {
     $res['m'] = (int)$res['m'];
     $res['d'] = (int)$res['d']+1;
     return $res;
-    //return array_filter($res);
 }
