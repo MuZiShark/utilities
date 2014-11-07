@@ -14,21 +14,24 @@ class IndexController extends Controller {
         $this->display();
     }
 
-    public function send() {
+    public function send()
+    {
         header("content-type:text/html; charset=utf-8");
         //实例化PHPMailer对象
         static $mailer = null;
-     	if (!$mailer) {
+        if (!$mailer) {
             import("@.Util.Mail.PHPMailer");
             $mailer = new \PHPMailer();
         }
         $address = 'li_rui@mama.cn';
         $title = '您好！';
         $content = '这是我的测试邮件！';
-        if(sendMail($mailer, $address, $title, $content)) {
+        if (sendMail($mailer, $address, $title, $content)) {
             echo '发送成功';
         } else {
             echo '发送失败';
         }
     }
+
+
 }

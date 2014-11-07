@@ -3,7 +3,7 @@
 header("Content-type:text/html;charset=utf-8");
 
 include_once '../conn.php';
-include_Export.Import 'excel/reader.php';  //导入PHP-ExcelReader
+include_once 'excel/reader.php';  //导入PHP-ExcelReader
 
 $data = new Spreadsheet_Excel_Reader();
 $data->setOutputEncoding('utf-8');

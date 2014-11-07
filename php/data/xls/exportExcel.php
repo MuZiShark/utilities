@@ -1,7 +1,7 @@
 <?php
 
 include_once '../conn.php';
-include_Export.Import 'excel/reader.php';  //导入PHP-ExcelReader
+include_once 'excel/reader.php';  //导入PHP-ExcelReader
 
 // 导出excel
 function exportExcel($filename,$content) {
